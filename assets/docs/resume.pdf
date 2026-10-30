@@ -1,0 +1,88 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 1734 >>
+stream
+BT
+/F1 20 Tf
+50 730 Td
+(ALEX MORGAN) Tj
+0 -20 Td
+/F1 12 Tf
+(B.Tech Information Technology Student | Aspiring Full Stack Developer) Tj
+0 -16 Td
+(Email: alex.morgan.tech@example.com | GitHub: github.com/yourusername | LinkedIn: linkedin.com/in/yourusername) Tj
+0 -30 Td
+/F1 14 Tf
+(EDUCATION) Tj
+0 -18 Td
+/F1 10 Tf
+(Bachelor of Technology - Information Technology (2nd Year, 2023 - 2027)) Tj
+0 -14 Td
+([YOUR COLLEGE NAME], City, State - CGPA: 8.9 / 10.0) Tj
+0 -14 Td
+(Relevant Coursework: Data Structures & Algorithms, Object-Oriented Programming, Web Technologies, DBMS) Tj
+0 -26 Td
+/F1 14 Tf
+(TECHNICAL SKILLS) Tj
+0 -18 Td
+/F1 10 Tf
+(Programming Languages: Python, C, JavaScript (ES6+), SQL) Tj
+0 -14 Td
+(Frontend & Styling: HTML5, CSS3, Bootstrap, Responsive Web Design) Tj
+0 -14 Td
+(Developer Tools: Git, GitHub, VS Code, Linux CLI, Figma) Tj
+0 -26 Td
+/F1 14 Tf
+(FEATURED PROJECTS) Tj
+0 -18 Td
+/F1 11 Tf
+(1. Image Gallery Web App (HTML5, CSS3, JavaScript)) Tj
+0 -14 Td
+/F1 10 Tf
+(- Responsive gallery with category filtering, image lightbox zoom, and search functionality.) Tj
+0 -20 Td
+/F1 11 Tf
+(2. Interactive Modern Calculator (HTML5, CSS3 Glassmorphism, JavaScript)) Tj
+0 -14 Td
+/F1 10 Tf
+(- Fully responsive calculator with live calculation history tape, keyboard shortcuts, and theme storage.) Tj
+0 -20 Td
+/F1 11 Tf
+(3. AI Personal Phone Optimizer (Conceptual Prototype, JS, Telemetry)) Tj
+0 -14 Td
+/F1 10 Tf
+(- Dashboard UI concept simulating real-time thermal monitoring, RAM management, and battery optimization.) Tj
+0 -20 Td
+/F1 11 Tf
+(4. Modern Personal Portfolio Website (Vanilla Web Stack)) Tj
+0 -14 Td
+/F1 10 Tf
+(- High-performance dark neon portfolio with glassmorphism, responsive navigation, and contact form.) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000002027 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2097
+%%EOF

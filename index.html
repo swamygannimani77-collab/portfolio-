@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- ========================================================
+       PORTFOLIO SEO & META CONFIGURATION
+       ======================================================== -->
+  <title>Alex Morgan | B.Tech IT Student & Aspiring Full Stack Developer</title>
+  <meta name="description" content="Personal portfolio of Alex Morgan, a 2nd-year B.Tech Information Technology student & aspiring full stack developer showcasing projects, technical skills, resume and contact info.">
+  <meta name="keywords" content="Alex Morgan, Portfolio, B.Tech IT, Web Developer, Full Stack Developer, JavaScript, Python, Projects, Student Portfolio">
+  <meta name="author" content="Alex Morgan">
+  <meta name="theme-color" content="#07090e">
+
+  <!-- Open Graph / Social Sharing Meta Tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Alex Morgan | B.Tech IT Portfolio">
+  <meta property="og:description" content="2nd-year B.Tech Information Technology student portfolio showcasing web applications, skills, resume and engineering projects.">
+  <meta property="og:image" content="assets/images/profile-avatar.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="alternate icon" href="assets/images/favicon.svg">
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Ambient Glow Blobs & Grid Pattern -->
+  <div class="ambient-glow ambient-glow-1"></div>
+  <div class="ambient-glow ambient-glow-2"></div>
+  <div class="ambient-glow ambient-glow-3"></div>
+  <div class="bg-grid-overlay"></div>
+
+  <!-- Real-time Scroll Progress Bar -->
+  <div class="scroll-progress-bar" id="scrollProgressBar"></div>
+
+  <!-- ========================================================
+       1. NAVIGATION BAR
+       ======================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      
+      <!-- Brand Logo -->
+      <a href="#home" class="nav-logo" aria-label="Alex Morgan Portfolio Home">
+        <div class="logo-badge">&lt;/&gt;</div>
+        <div class="logo-text">
+          <!-- EDITABLE: Replace 'Alex Morgan' with your name -->
+          <span class="logo-name">Alex Morgan</span>
+          <span class="logo-role">B.Tech IT &bull; 2nd Year</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#resume" class="nav-link">Resume</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions (Status & CTA) -->
+      <div class="nav-actions">
+        <div class="nav-status">
+          <span class="status-dot"></span>
+          <span>Open to Internships</span>
+        </div>
+        <a href="#contact" class="btn btn-primary btn-sm">Let's Talk</a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle Navigation Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+  </header>
+
+  <!-- ========================================================
+       2. HERO SECTION
+       ======================================================== -->
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      
+      <!-- Left Hero Content -->
+      <div class="hero-content reveal">
+        
+        <div class="hero-badge">
+          <span class="hero-badge-icon">🚀</span>
+          <span>Welcome to my digital developer space</span>
+        </div>
+
+        <h1 class="hero-title">
+          Hi, I'm <br>
+          <!-- EDITABLE: Replace with your actual name -->
+          <span class="text-gradient">Alex Morgan</span>
+        </h1>
+
+        <!-- Dynamic Typing Subtitle Effect -->
+        <div class="hero-typing-wrap">
+          <span class="hero-typing-prefix">I am a</span>
+          <span class="hero-typing-text"></span>
+        </div>
+
+        <p class="hero-desc">
+          A passionate 2nd-year <strong>B.Tech Information Technology</strong> student dedicated to building high-performance web applications, mastering algorithms, and translating creative ideas into responsive, functional digital reality.
+        </p>
+
+        <!-- CTA Buttons -->
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">
+            <span>View My Projects</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+          
+          <!-- Download Resume Button linked to sample PDF -->
+          <a href="assets/docs/resume.pdf" class="btn btn-secondary" download="Alex_Morgan_Resume.pdf">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            <span>Download Resume</span>
+          </a>
+        </div>
+
+        <!-- Quick Numerical Metrics -->
+        <div class="hero-metrics">
+          <div class="metric-item">
+            <span class="metric-value text-gradient">10+</span>
+            <span class="metric-label">Projects Built</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-value text-gradient">500+</span>
+            <span class="metric-label">Coding Hours</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-value text-gradient">8+</span>
+            <span class="metric-label">Tech Stack Tools</span>
+          </div>
+          <div class="metric-item">
+            <span class="metric-value text-gradient">8.9</span>
+            <span class="metric-label">Academic CGPA</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Right Hero Visual / Avatar Card -->
+      <div class="hero-visual reveal reveal-delay-2">
+        <div class="avatar-wrapper">
+          <div class="avatar-ring-glow"></div>
+          
+          <div class="avatar-frame">
+            <!-- EDITABLE: Replace with your own profile image in assets/images/ -->
+            <img src="assets/images/profile-avatar.jpg" alt="Alex Morgan - B.Tech IT Student" class="avatar-image">
+          </div>
+
+          <!-- Floating Info Chips -->
+          <div class="floating-chip chip-top-left">
+            <div class="chip-icon chip-purple">⚡</div>
+            <div class="chip-text">
+              <span class="chip-title">B.Tech IT</span>
+              <span class="chip-sub">2nd Year Undergrad</span>
+            </div>
+          </div>
+
+          <div class="floating-chip chip-bottom-right">
+            <div class="chip-icon chip-cyan">💻</div>
+            <div class="chip-text">
+              <span class="chip-title">Full Stack</span>
+              <span class="chip-sub">Enthusiast & Coder</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================
+       3. ABOUT ME SECTION
+       ======================================================== -->
+  <section class="section" id="about">
+    <div class="container">
+      
+      <div class="section-header reveal">
+        <span class="section-tag">// 01. ABOUT ME</span>
+        <h2 class="section-title">Driven by Curiosity, Built on Code</h2>
+        <p class="section-subtitle">
+          Discover my academic background, technical journey, and what fuels my passion for building software solutions.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        
+        <!-- Profile Credentials Card -->
+        <div class="glass-card about-profile-card reveal">
+          <div class="about-card-header">
+            <div class="about-card-avatar">
+              <img src="assets/images/profile-avatar.jpg" alt="Alex Morgan Profile">
+            </div>
+            <div class="about-card-meta">
+              <!-- EDITABLE: Your Name & Title -->
+              <h3>Alex Morgan</h3>
+              <p>B.Tech IT Student &bull; Sophomore</p>
+            </div>
+          </div>
+
+          <div class="about-details-list">
+            <div class="detail-row">
+              <span class="detail-label">🎓 Degree:</span>
+              <span class="detail-val">B.Tech – Information Technology</span>
+            </div>
+            <div class="detail-row">
+              <span class="detail-label">📅 Academic Year:</span>
+              <span class="detail-val">2nd Year (2023 &ndash; 2027)</span>
+            </div>
+            <div class="detail-row">
+              <span class="detail-label">🏛️ College:</span>
+              <!-- EDITABLE: Replace with your college name -->
+              <span class="detail-val college-badge">[YOUR COLLEGE NAME]</span>
+            </div>
+            <div class="detail-row">
+              <span class="detail-label">📍 Location:</span>
+              <!-- EDITABLE: Replace with your city/state -->
+              <span class="detail-val">Bengaluru / Hyderabad, India</span>
+            </div>
+            <div class="detail-row">
+              <span class="detail-label">💼 Career Goal:</span>
+              <span class="detail-val">Full Stack Software Engineer</span>
+            </div>
+          </div>
+
+          <div style="margin-top: 1rem;">
+            <a href="#resume" class="btn btn-outline" style="width: 100%;">
+              <span>Inspect Academic Credentials</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14"></path>
+                <path d="M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Bio Story & Strengths -->
+        <div class="about-story reveal reveal-delay-2">
+          <h3 class="story-lead">
+            Bridging fundamental computer science concepts with modern interactive web technologies.
+          </h3>
+          
+          <p class="story-text">
+            I am currently in my second year pursuing a Bachelor of Technology in <strong>Information Technology</strong>. My fascination with coding started with basic algorithms and has evolved into creating sleek, accessible, and responsive web applications.
+          </p>
+
+          <p class="story-text">
+            I love exploring how things work under the hood—from understanding low-level data structures in C and Python to architecting clean, componentized frontends using vanilla JavaScript and modern CSS. Whenever I'm not studying or debugging code, I am exploring emerging developer tooling, contributing to open-source prototypes, or brainstorming tech solutions for everyday problems.
+          </p>
+
+          <!-- Core Pillars / Highlights -->
+          <div class="about-highlights-grid">
+            
+            <div class="highlight-item">
+              <div class="highlight-icon">🌐</div>
+              <h4 class="highlight-title">Web Development</h4>
+              <p class="highlight-desc">Crafting responsive, high-performance user interfaces with clean semantic HTML5, CSS3, and modern JavaScript.</p>
+            </div>
+
+            <div class="highlight-item">
+              <div class="highlight-icon">🧠</div>
+              <h4 class="highlight-title">Problem Solving</h4>
+              <p class="highlight-desc">Strengthening foundation in Data Structures, Algorithms, Object-Oriented design, and logical problem solving.</p>
+            </div>
+
+            <div class="highlight-item">
+              <div class="highlight-icon">⚡</div>
+              <h4 class="highlight-title">Modern Tooling</h4>
+              <p class="highlight-desc">Version control with Git & GitHub, terminal workflows, responsive testing, and collaborative team practices.</p>
+            </div>
+
+            <div class="highlight-item">
+              <div class="highlight-icon">🚀</div>
+              <h4 class="highlight-title">Continuous Learner</h4>
+              <p class="highlight-desc">Always eager to pick up new frameworks, tackle hackathons, and collaborate on ambitious software projects.</p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================
+       4. SKILLS SECTION
+       ======================================================== -->
+  <section class="section" id="skills" style="background: rgba(10, 13, 20, 0.4);">
+    <div class="container">
+      
+      <div class="section-header reveal">
+        <span class="section-tag">// 02. TECHNICAL PROFICIENCIES</span>
+        <h2 class="section-title">My Tech Stack &amp; Skills</h2>
+        <p class="section-subtitle">
+          Core programming languages, web technologies, and developer utilities I work with daily.
+        </p>
+      </div>
+
+      <!-- Skills Category Filter Switcher -->
+      <div class="skills-controls reveal">
+        <button class="filter-pill skills-filter-btn active" data-category="all">All Skills</button>
+        <button class="filter-pill skills-filter-btn" data-category="frontend">Frontend &amp; UI</button>
+        <button class="filter-pill skills-filter-btn" data-category="programming">Programming &amp; Core</button>
+        <button class="filter-pill skills-filter-btn" data-category="tools">Tools &amp; Database</button>
+      </div>
+
+      <!-- Skills Cards Grid -->
+      <div class="skills-grid">
+        
+        <!-- 1. HTML5 -->
+        <div class="glass-card skill-card reveal" data-category="frontend" style="--skill-color: #f97316;">
+          <div class="skill-card-top">
+            <div class="skill-badge-icon">🌐</div>
+            <span class="skill-proficiency">Advanced</span>
+          </div>
+          <div class="skill-info">
+            <h4>HTML5</h4>
+            <p>Semantic markup, Web Accessibility (a11y), SEO meta tags, and structured DOM APIs.</p>
+          </div>
+          <div class="skill-progress-wrap">
+            <div class="skill-progress-header">
+              <span>Proficiency</span>
+              <span>92%</span>
+            </div>
+            <div class="skill-progress-track">
+              <div class="skill-progress-fill" data-target-width="92%"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. CSS3 -->
+        <div class="glass-card skill-card reveal reveal-delay-1" data-category="frontend" style="--skill-color: #3b82f6;">
+          <div class="skill-card-top">
+            <div class="skill-badge-icon">🎨</div>
+            <span class="skill-proficiency">Advanced</span>
+          </div>
+          <div class="skill-info">
+            <h4>CSS3</h4>
+            <p>Flexbox, CSS Grid, Glassmorphism, animations, keyframes, and CSS custom variables.</p>
+          </div>
+          <div class="skill-progress-wrap">
+            <div class="skill-progress-header">
+              <span>Proficiency</span>
+              <span>88%</span>
+            </div>
+            <div class="skill-progress-track">
+              <div class="skill-progress-fill" data-target-width="88%"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. JavaScript -->
+        <div class="glass-card skill-card reveal reveal-delay-2" data-category="frontend" style="--skill-color: #eab308;">
+          <div class="skill-card-top">
+            <div class="skill-badge-icon">⚡</div>
+            <span class="skill-proficiency">Proficient</span>
+          </div>
+          <div class="skill-info">
+            <h4>JavaScript (ES6+)</h4>
+            <p>DOM manipulation, asynchronous fetch APIs, event listeners, array methods &amp; closures.</p>
+          </div>
+          <div class="skill-progress-wrap">
+            <div class="skill-progress-header">
+              <span>Proficiency</span>
+              <span>82%</span>
+            </div>
+            <div class="skill-progress-track">
+              <div class="skill-progress-fill" data-target-width="82%"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Python -->
+        <div class="glass-card skill-card reveal reveal-delay-3" data-category="programming" style="--skill-color: #06b6d4;">
+          <div class="skill-card-top">
+            <div class="skill-badge-icon">🐍</div>
+            <span class="skill-proficiency">Proficient</span>
+          </div>
+          <div class="skill-info">
+            <h4>Python</h4>
+            <p>Object-oriented scripting, algorithmic problem solving, automation, and data handling.</p>
+          </div>
+          <div class="skill-progress-wrap">
+            <div class="skill-progress-header">
+              <span>Proficiency</span>
+              <span>80%</span>
+            </div>
+            <div class="skill-progress-track">
+              <div class="skill-progress-fill" data-target-width="80%"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. C Programming -->
+        <div class="glass-card skill-card reveal" data-category="programming" style="--skill-color: #6366f1;">
+          <div class="skill-card-top">
+            <div class="skill-badge-icon">⚙️</div>
+            <span class="skill-proficiency">Core / Academic</span>
+          </div>
+          <div class="skill-info">
+            <h4>C Programming</h4>
+            <p>Pointers, memory management, arrays, structs, and Data Structures (Stacks, Queues, Trees).</p>
+          </div>
+          <div class="skill-progress-wrap">
+            <div class="skill-progress-header">
+              <span>Proficiency</span>
+              <span>85%</span>
+            </div>
+            <div class="skill-progress-track">
+              <div class="skill-progress-fill" data-target-width="85%"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. SQL -->
+        <div class="glass-card skill-card reveal reveal-delay-1" data-category="tools" style="--skill-color: #a855f7;">
+          <div class="skill-card-top">
+            <div class="skill-badge-icon">🗄️</div>
+            <span class="skill-proficiency">Intermediate</span>
+          </div>
+          <div class="skill-info">
+            <h4>SQL &amp; DBMS</h4>
+            <p>Relational schema design, normalization, joins, subqueries, and CRUD operations.</p>
+          </div>
+          <div class="skill-progress-wrap">
+            <div class="skill-progress-header">
+              <span>Proficiency</span>
+              <span>76%</span>
+            </div>
+            <div class="skill-progress-track">
+              <div class="skill-progress-fill" data-target-width="76%"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7. Bootstrap -->
+        <div class="glass-card skill-card reveal reveal-delay-2" data-category="frontend" style="--skill-color: #8b5cf6;">
+          <div class="skill-card-top">
+            <div class="skill-badge-icon">🅱️</div>
+            <span class="skill-proficiency">Proficient</span>
+          </div>
+          <div class="skill-info">
+            <h4>Bootstrap 5</h4>
+            <p>Rapid responsive layouts, utility classes, navigation bars, modals, and grid system.</p>
+          </div>
+          <div class="skill-progress-wrap">
+            <div class="skill-progress-header">
+              <span>Proficiency</span>
+              <span>85%</span>
+            </div>
+            <div class="skill-progress-track">
+              <div class="skill-progress-fill" data-target-width="85%"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 8. Git & GitHub -->
+        <div class="glass-card skill-card reveal reveal-delay-3" data-category="tools" style="--skill-color: #f43f5e;">
+          <div class="skill-card-top">
+            <div class="skill-badge-icon">🐙</div>
+            <span class="skill-proficiency">Proficient</span>
+          </div>
+          <div class="skill-info">
+            <h4>Git &amp; GitHub</h4>
+            <p>Branching, commits, pull requests, merge conflict resolution, and GitHub Pages deployments.</p>
+          </div>
+          <div class="skill-progress-wrap">
+            <div class="skill-progress-header">
+              <span>Proficiency</span>
+              <span>84%</span>
+            </div>
+            <div class="skill-progress-track">
+              <div class="skill-progress-fill" data-target-width="84%"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 9. Responsive Web Design -->
+        <div class="glass-card skill-card reveal" data-category="frontend" style="--skill-color: #10b981;">
+          <div class="skill-card-top">
+            <div class="skill-badge-icon">📱</div>
+            <span class="skill-proficiency">Advanced</span>
+          </div>
+          <div class="skill-info">
+            <h4>Responsive Web Design</h4>
+            <p>Mobile-first architecture, fluid typography, media queries, and cross-device testing.</p>
+          </div>
+          <div class="skill-progress-wrap">
+            <div class="skill-progress-header">
+              <span>Proficiency</span>
+              <span>90%</span>
+            </div>
+            <div class="skill-progress-track">
+              <div class="skill-progress-fill" data-target-width="90%"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================
+       5. PROJECTS SECTION
+       ======================================================== -->
+  <section class="section" id="projects">
+    <div class="container">
+      
+      <div class="section-header reveal">
+        <span class="section-tag">// 03. FEATURED WORK</span>
+        <h2 class="section-title">Projects I've Built</h2>
+        <p class="section-subtitle">
+          Real-world web applications, interactive software tools, and innovative prototypes.
+        </p>
+      </div>
+
+      <!-- Project Category Filters -->
+      <div class="projects-filter-wrap reveal">
+        <button class="filter-pill project-filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-pill project-filter-btn" data-filter="web">Web Applications</button>
+        <button class="filter-pill project-filter-btn" data-filter="utility">Utilities &amp; Tools</button>
+        <button class="filter-pill project-filter-btn" data-filter="concept">Concepts &amp; AI</button>
+      </div>
+
+      <!-- Project Cards Grid -->
+      <div class="projects-grid">
+        
+        <!-- PROJECT 1: Image Gallery -->
+        <article class="project-card reveal" data-category="web">
+          <div class="project-thumb">
+            <img src="assets/images/project-gallery.jpg" alt="Interactive Image Gallery Preview">
+            <div class="project-overlay">
+              <span class="project-category-badge">Web Application</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Responsive Image Gallery with Lightbox</h3>
+            <p class="project-desc">
+              A responsive photography gallery application featuring category filtering, live keyword search, smooth zoom transitions, and a custom vanilla JavaScript modal lightbox viewer.
+            </p>
+            <div class="project-tech-stack">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS Grid</span>
+              <span class="tech-tag">JavaScript (ES6)</span>
+              <span class="tech-tag">Lightbox API</span>
+            </div>
+            <div class="project-actions">
+              <button class="btn btn-primary btn-sm" data-project-id="gallery">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+                <span>Live Demo</span>
+              </button>
+              <!-- EDITABLE: Replace placeholder GitHub URL -->
+              <a href="https://github.com/yourusername/image-gallery" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm btn-github">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                <span>GitHub Code</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT 2: Interactive Calculator -->
+        <article class="project-card reveal reveal-delay-1" data-category="utility">
+          <div class="project-thumb">
+            <img src="assets/images/project-calculator.jpg" alt="Modern Interactive Calculator Preview">
+            <div class="project-overlay">
+              <span class="project-category-badge">Utility &amp; Tool</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Modern Interactive Calculator</h3>
+            <p class="project-desc">
+              Sleek dark-glass calculator web app supporting complex arithmetic, keyboard shortcut bindings, calculation history tape with memory recall, and smooth micro-animations.
+            </p>
+            <div class="project-tech-stack">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">Glassmorphism</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">LocalStorage</span>
+            </div>
+            <div class="project-actions">
+              <button class="btn btn-primary btn-sm" data-project-id="calculator">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+                <span>Live Demo</span>
+              </button>
+              <!-- EDITABLE: Replace placeholder GitHub URL -->
+              <a href="https://github.com/yourusername/modern-calculator" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm btn-github">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                <span>GitHub Code</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT 3: AI Personal Phone Optimizer -->
+        <article class="project-card reveal" data-category="concept">
+          <div class="project-thumb">
+            <img src="assets/images/project-phone-optimizer.jpg" alt="AI Phone Optimizer Prototype Preview">
+            <div class="project-overlay">
+              <span class="project-category-badge">Concept &amp; AI</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">AI Personal Phone Optimizer</h3>
+            <p class="project-desc">
+              Smart conceptual system dashboard simulating real-time smartphone telemetry, CPU thermal dissipation, RAM boost heuristics, and intelligent battery degradation optimization.
+            </p>
+            <div class="project-tech-stack">
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">Canvas Telemetry</span>
+              <span class="tech-tag">Cyberpunk UI</span>
+              <span class="tech-tag">Data Modeling</span>
+            </div>
+            <div class="project-actions">
+              <button class="btn btn-primary btn-sm" data-project-id="phone-optimizer">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+                <span>View Prototype</span>
+              </button>
+              <!-- EDITABLE: Replace placeholder GitHub URL -->
+              <a href="https://github.com/yourusername/ai-phone-optimizer" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm btn-github">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                <span>GitHub Code</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT 4: Developer Portfolio Website -->
+        <article class="project-card reveal reveal-delay-1" data-category="web">
+          <div class="project-thumb">
+            <img src="assets/images/project-portfolio.jpg" alt="Modern Developer Portfolio Preview">
+            <div class="project-overlay">
+              <span class="project-category-badge">Web Application</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Personal Portfolio Website</h3>
+            <p class="project-desc">
+              My responsive, dark-neon personal portfolio website built with pure vanilla HTML5, CSS3, and modern JavaScript. Features glassmorphism, dynamic typing, and zero framework bloat.
+            </p>
+            <div class="project-tech-stack">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">Modern CSS</span>
+              <span class="tech-tag">Vanilla JS</span>
+              <span class="tech-tag">IntersectionObserver</span>
+            </div>
+            <div class="project-actions">
+              <button class="btn btn-primary btn-sm" data-project-id="portfolio">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+                <span>Live Demo</span>
+              </button>
+              <!-- EDITABLE: Replace placeholder GitHub URL -->
+              <a href="https://github.com/yourusername/developer-portfolio" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm btn-github">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                <span>GitHub Code</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================
+       6. RESUME SECTION
+       ======================================================== -->
+  <section class="section" id="resume" style="background: rgba(10, 13, 20, 0.4);">
+    <div class="container">
+      
+      <div class="section-header reveal">
+        <span class="section-tag">// 04. CURRICULUM VITAE</span>
+        <h2 class="section-title">Resume &amp; Credentials</h2>
+        <p class="section-subtitle">
+          An overview of my education, academic milestones, technical background, and achievements.
+        </p>
+      </div>
+
+      <!-- Resume Preview Document Card -->
+      <div class="glass-card resume-preview-card reveal">
+        
+        <!-- Resume Header -->
+        <div class="resume-sheet-top">
+          <div class="resume-identity">
+            <!-- EDITABLE: Your Name & Title -->
+            <h3>Alex Morgan</h3>
+            <p>B.Tech Information Technology Student &bull; Aspiring Full Stack Developer</p>
+          </div>
+          <div class="resume-contact-quick">
+            <!-- EDITABLE: Your Contact info -->
+            <span>📧 alex.morgan.tech@example.com</span>
+            <span>📍 [Your City, State, Country]</span>
+            <span>🌐 github.com/yourusername</span>
+          </div>
+        </div>
+
+        <!-- Resume Structured Sections -->
+        <div class="resume-doc-body">
+          
+          <!-- Education Block -->
+          <div class="resume-doc-block">
+            <h4>
+              <span>🎓</span>
+              <span>Education</span>
+            </h4>
+            
+            <div style="margin-bottom: 1.5rem;">
+              <div class="resume-item-row">
+                <span class="resume-item-title">Bachelor of Technology &ndash; Information Technology</span>
+                <span class="resume-item-date">2023 &ndash; 2027 (Expected)</span>
+              </div>
+              <!-- EDITABLE: Replace with your college name & CGPA -->
+              <p class="resume-item-sub"><strong>[YOUR COLLEGE NAME]</strong> &bull; Current CGPA: <strong>8.9 / 10.0</strong> (2nd Year)</p>
+              <ul class="resume-item-bullets">
+                <li>Core Coursework: Data Structures &amp; Algorithms, Object-Oriented Programming (Java/C++), Web Technologies, Database Management Systems (DBMS).</li>
+                <li>Active Member of Campus Coding Club &amp; Open Source Student Chapter.</li>
+              </ul>
+            </div>
+
+            <div>
+              <div class="resume-item-row">
+                <span class="resume-item-title">Higher Secondary Education (12th Grade &ndash; Science &amp; CS)</span>
+                <span class="resume-item-date">2021 &ndash; 2023</span>
+              </div>
+              <p class="resume-item-sub"><strong>State Board / CBSE</strong> &bull; Score: <strong>94.2%</strong></p>
+            </div>
+          </div>
+
+          <!-- Technical Skills Summary -->
+          <div class="resume-doc-block">
+            <h4>
+              <span>⚡</span>
+              <span>Technical Skills</span>
+            </h4>
+            <ul class="resume-item-bullets" style="display: flex; flex-direction: column; gap: 0.4rem;">
+              <li><strong>Languages:</strong> C Programming, Python, JavaScript (ES6+), SQL.</li>
+              <li><strong>Frontend &amp; UI:</strong> HTML5, CSS3, Flexbox/Grid, Bootstrap 5, Responsive Design, DOM Manipulation.</li>
+              <li><strong>Tools &amp; Platforms:</strong> Git, GitHub, VS Code, Linux/Unix Terminal, Netlify, GitHub Pages.</li>
+              <li><strong>Core Concepts:</strong> Data Structures &amp; Algorithms, Relational Databases, Object-Oriented Design.</li>
+            </ul>
+          </div>
+
+          <!-- Key Academic Projects -->
+          <div class="resume-doc-block">
+            <h4>
+              <span>💼</span>
+              <span>Key Projects</span>
+            </h4>
+            <div style="display: flex; flex-direction: column; gap: 1rem;">
+              <div>
+                <div class="resume-item-row">
+                  <span class="resume-item-title">Image Gallery Web Application</span>
+                  <span class="resume-item-date">HTML5, CSS Grid, Vanilla JS</span>
+                </div>
+                <ul class="resume-item-bullets">
+                  <li>Engineered a responsive photography showcase with filter pills, instant title/tag search, and accessible lightbox zoom.</li>
+                </ul>
+              </div>
+              <div>
+                <div class="resume-item-row">
+                  <span class="resume-item-title">Interactive Calculator with History Tape</span>
+                  <span class="resume-item-date">HTML5, CSS Glassmorphism, JS</span>
+                </div>
+                <ul class="resume-item-bullets">
+                  <li>Designed a sleek dark calculator supporting full keyboard shortcuts, calculation persistence, and arithmetic evaluation.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Download Action Bar -->
+        <div class="resume-download-bar">
+          <div class="resume-bar-info">
+            <div class="resume-file-icon">PDF</div>
+            <div class="resume-file-meta">
+              <h5>Alex_Morgan_Resume.pdf</h5>
+              <p>Ready for internships &bull; Replace with your own PDF anytime in <code>assets/docs/</code></p>
+            </div>
+          </div>
+          
+          <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+            <!-- Download Button -->
+            <a href="assets/docs/resume.pdf" download="Alex_Morgan_Resume.pdf" class="btn btn-primary btn-sm">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download PDF</span>
+            </a>
+
+            <!-- Print / View in new tab -->
+            <a href="assets/docs/resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+              <span>View Full File</span>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================
+       7. CONTACT SECTION
+       ======================================================== -->
+  <section class="section" id="contact">
+    <div class="container">
+      
+      <div class="section-header reveal">
+        <span class="section-tag">// 05. GET IN TOUCH</span>
+        <h2 class="section-title">Let's Connect &amp; Collaborate</h2>
+        <p class="section-subtitle">
+          Have an internship opportunity, project idea, or just want to discuss tech? Reach out to me anytime!
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        
+        <!-- Left: Direct Info & Social Channels -->
+        <div class="contact-info-col reveal">
+          
+          <div class="contact-lead">
+            <h3>Ready to build something impactful together?</h3>
+            <p>
+              I am actively looking for software engineering internships, technical collaborations, and hackathon teammates. Let's start a conversation!
+            </p>
+          </div>
+
+          <!-- Contact Cards -->
+          <div class="contact-cards-list">
+            
+            <a href="mailto:alex.morgan.tech@example.com" class="contact-card-item">
+              <div class="contact-card-icon">✉️</div>
+              <div class="contact-card-text">
+                <span class="contact-card-label">Email Address</span>
+                <!-- EDITABLE: Replace with your actual email -->
+                <span class="contact-card-val">alex.morgan.tech@example.com</span>
+              </div>
+            </a>
+
+            <div class="contact-card-item">
+              <div class="contact-card-icon">📍</div>
+              <div class="contact-card-text">
+                <span class="contact-card-label">Current Location</span>
+                <!-- EDITABLE: Replace with your location -->
+                <span class="contact-card-val">Bengaluru / Hyderabad, India</span>
+              </div>
+            </div>
+
+            <div class="contact-card-item">
+              <div class="contact-card-icon">💼</div>
+              <div class="contact-card-text">
+                <span class="contact-card-label">Internship Status</span>
+                <span class="contact-card-val" style="color: var(--color-emerald);">Available for Summer &amp; Winter 2026/27</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Social Channels -->
+          <div class="social-links-section">
+            <h4>Follow &amp; Connect With Me</h4>
+            <div class="social-icons-grid">
+              
+              <!-- GitHub -->
+              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub Profile" title="GitHub">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+              </a>
+
+              <!-- LinkedIn -->
+              <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn Profile" title="LinkedIn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </a>
+
+              <!-- Instagram -->
+              <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram Profile" title="Instagram">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+              </a>
+
+              <!-- Email Direct -->
+              <a href="mailto:alex.morgan.tech@example.com" class="social-btn" aria-label="Send Direct Email" title="Direct Email">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </a>
+
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right: Glassmorphism Contact Form -->
+        <div class="glass-card contact-form-card reveal reveal-delay-2">
+          
+          <div class="form-header">
+            <h4>Send Me a Direct Message</h4>
+            <p>Fill out the fields below and I'll respond as quickly as possible.</p>
+          </div>
+
+          <form class="contact-form" id="contactForm" novalidate>
+            
+            <!-- Full Name -->
+            <div class="form-group">
+              <label for="contactName" class="form-label">
+                <span>Your Name</span>
+                <span class="form-feedback">Please enter your name</span>
+              </label>
+              <div class="form-input-wrap">
+                <input type="text" id="contactName" name="name" class="form-input" placeholder="e.g. Sarah Jenkins" required>
+              </div>
+            </div>
+
+            <!-- Email Address -->
+            <div class="form-group">
+              <label for="contactEmail" class="form-label">
+                <span>Email Address</span>
+                <span class="form-feedback">Please enter a valid email address</span>
+              </label>
+              <div class="form-input-wrap">
+                <input type="email" id="contactEmail" name="email" class="form-input" placeholder="e.g. sarah@example.com" required>
+              </div>
+            </div>
+
+            <!-- Subject -->
+            <div class="form-group">
+              <label for="contactSubject" class="form-label">
+                <span>Subject</span>
+                <span class="form-feedback">Please provide a subject</span>
+              </label>
+              <div class="form-input-wrap">
+                <input type="text" id="contactSubject" name="subject" class="form-input" placeholder="e.g. Internship Inquiry / Project Discussion" required>
+              </div>
+            </div>
+
+            <!-- Message Content -->
+            <div class="form-group">
+              <label for="contactMessage" class="form-label">
+                <span>Message</span>
+                <span class="form-feedback">Message must be at least 8 characters</span>
+              </label>
+              <div class="form-input-wrap">
+                <textarea id="contactMessage" name="message" class="form-textarea" placeholder="Hi Alex, I came across your portfolio and wanted to discuss..." required></textarea>
+              </div>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary" style="width: 100%; padding: 1rem;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================
+       8. FOOTER
+       ======================================================== -->
+  <footer class="footer">
+    <div class="container">
+      
+      <div class="footer-top">
+        
+        <div class="footer-brand">
+          <div class="nav-logo">
+            <div class="logo-badge">&lt;/&gt;</div>
+            <span class="logo-name">Alex Morgan</span>
+          </div>
+          <p>
+            2nd-year B.Tech Information Technology student focused on web development, clean coding practices, and creating modern digital solutions.
+          </p>
+        </div>
+
+        <div class="footer-nav">
+          
+          <div class="footer-col">
+            <h5>Quick Links</h5>
+            <div class="footer-col-links">
+              <a href="#home">Home</a>
+              <a href="#about">About Me</a>
+              <a href="#skills">Skills</a>
+              <a href="#projects">Projects</a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h5>Credentials</h5>
+            <div class="footer-col-links">
+              <a href="#resume">Resume Preview</a>
+              <a href="assets/docs/resume.pdf" download="Alex_Morgan_Resume.pdf">Download CV</a>
+              <a href="#contact">Get in Touch</a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h5>Profiles</h5>
+            <div class="footer-col-links">
+              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear">2026</span> Alex Morgan. All Rights Reserved.</p>
+        <p>Built with <span class="footer-heart">❤️</span> using semantic HTML5, CSS3 &amp; Vanilla JavaScript.</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ========================================================
+       9. BACK TO TOP BUTTON WITH SCROLL PROGRESS RING
+       ======================================================== -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to Top">
+    <svg class="progress-ring" viewBox="0 0 50 50">
+      <circle class="progress-ring-circle" stroke-width="3" fill="transparent" r="23" cx="25" cy="25"/>
+    </svg>
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- ========================================================
+       10. PROJECT QUICK VIEW MODAL
+       ======================================================== -->
+  <div class="modal-overlay" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-content">
+      <button class="modal-close-btn" aria-label="Close Project Modal">✕</button>
+      
+      <div class="modal-image-wrap">
+        <img id="modalImage" src="" alt="Project Preview">
+      </div>
+
+      <div class="modal-body">
+        <div>
+          <span class="project-category-badge" id="modalCategory" style="position: static; display: inline-block; margin-bottom: 0.5rem;">Category</span>
+          <h3 class="modal-title" id="modalTitle">Project Title</h3>
+        </div>
+
+        <p class="modal-desc" id="modalDesc"></p>
+
+        <div>
+          <h4 style="font-size: 0.95rem; font-family: var(--font-mono); color: var(--color-purple); margin-bottom: 0.6rem; text-transform: uppercase;">Key Architectural Features</h4>
+          <ul class="modal-features-list" id="modalFeatures"></ul>
+        </div>
+
+        <div>
+          <h4 style="font-size: 0.85rem; font-family: var(--font-mono); color: var(--text-muted); margin-bottom: 0.6rem; text-transform: uppercase;">Technologies &amp; Tools</h4>
+          <div class="project-tech-stack" id="modalTechStack"></div>
+        </div>
+
+        <div class="modal-footer">
+          <a href="#" id="modalLiveDemo" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+            <span>Launch Live Preview</span>
+          </a>
+          <a href="#" id="modalGithub" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg>
+            <span>Inspect GitHub Code</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================
+       11. TOAST NOTIFICATION CONTAINER
+       ======================================================== -->
+  <div class="toast-container" id="toastContainer" aria-live="polite"></div>
+
+  <!-- Custom JavaScript Controller -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
